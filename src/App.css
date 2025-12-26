@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111D2C;
+}
+
+/* Общий контейнер для всех страниц с эллипсом */
+.page-container {
+  min-height: 100vh;
+  background: #111D2C;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-container::before {
+  content: '';
+  position: absolute;
+  width: 866.65px;
+  height: 739.9px;
+  left: 256.98px;
+  top: -148px;
+  background: linear-gradient(115.21deg, rgba(31, 105, 162, 0.448) 22.58%, rgba(18, 255, 194, 0.48) 73.39%);
+  filter: blur(100px);
+  transform: rotate(42.49deg);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1;
+}
