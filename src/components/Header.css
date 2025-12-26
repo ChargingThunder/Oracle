@@ -1,0 +1,78 @@
+.header {
+  padding: 40px 100px;
+}
+
+.header-container {
+  background: #EFEEFC;
+  border-radius: 26px;
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-image {
+  width: 79px;
+  height: 79px;
+  object-fit: contain;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  margin-right: 69px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  flex: 1;
+}
+
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: underline;
+  letter-spacing: -0.02em;
+  transition: opacity 0.3s;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+.account-btn {
+  background: #273444;
+  border: 1px solid #FFFFFF;
+  border-radius: 26px;
+  padding: 20px 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  height: 68px;
+  margin-left: auto;
+}
+
+.account-btn:hover {
+  opacity: 0.9;
+}
