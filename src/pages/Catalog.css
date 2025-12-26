@@ -1,0 +1,86 @@
+.catalog-main {
+  min-height: calc(100vh - 176px);
+  padding: 40px 100px;
+}
+
+.catalog-container {
+  display: flex;
+  gap: 50px;
+}
+
+.catalog-sidebar {
+  width: 380px;
+  background-color: #EFEEFC;
+  border-radius: 26px;
+  padding: 40px 35px;
+  height: fit-content;
+}
+
+.category-item {
+  padding: 16px 0;
+  cursor: pointer;
+  margin-bottom: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  transition: color 0.3s;
+  text-decoration: underline;
+}
+
+.category-item:hover {
+  color: #333;
+}
+
+.category-item.active {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.catalog-content {
+  flex: 1;
+  background-color: #EFEEFC;
+  border-radius: 26px;
+  padding: 50px 60px;
+}
+
+.catalog-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.course-section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.course-item {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 8px 0;
+}
+
+.course-item:hover {
+  color: #2AE0E0;
+  text-decoration: underline;
+}
